@@ -1,0 +1,216 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 20, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1; }
+
+/* line 22, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 24, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 26, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 28, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 101, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 30, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 114, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 8, ../sass/raster.scss */
+#seite {
+  *zoom: 1;
+  margin: auto;
+  width: 968px;
+  max-width: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(23.14%, rgba(100, 100, 225, 0.25)), color-stop(23.14%, rgba(0, 0, 0, 0)), color-stop(25.62%, rgba(0, 0, 0, 0)), color-stop(25.62%, rgba(100, 100, 225, 0.25)), color-stop(48.76%, rgba(100, 100, 225, 0.25)), color-stop(48.76%, rgba(0, 0, 0, 0)), color-stop(51.24%, rgba(0, 0, 0, 0)), color-stop(51.24%, rgba(100, 100, 225, 0.25)), color-stop(74.38%, rgba(100, 100, 225, 0.25)), color-stop(74.38%, rgba(0, 0, 0, 0)), color-stop(76.86%, rgba(0, 0, 0, 0)), color-stop(76.86%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 23.14%, rgba(0, 0, 0, 0) 23.14%, rgba(0, 0, 0, 0) 25.62%, rgba(100, 100, 225, 0.25) 25.62%, rgba(100, 100, 225, 0.25) 48.76%, rgba(0, 0, 0, 0) 48.76%, rgba(0, 0, 0, 0) 51.24%, rgba(100, 100, 225, 0.25) 51.24%, rgba(100, 100, 225, 0.25) 74.38%, rgba(0, 0, 0, 0) 74.38%, rgba(0, 0, 0, 0) 76.86%, rgba(100, 100, 225, 0.25) 76.86%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 23.14%, rgba(0, 0, 0, 0) 23.14%, rgba(0, 0, 0, 0) 25.62%, rgba(100, 100, 225, 0.25) 25.62%, rgba(100, 100, 225, 0.25) 48.76%, rgba(0, 0, 0, 0) 48.76%, rgba(0, 0, 0, 0) 51.24%, rgba(100, 100, 225, 0.25) 51.24%, rgba(100, 100, 225, 0.25) 74.38%, rgba(0, 0, 0, 0) 74.38%, rgba(0, 0, 0, 0) 76.86%, rgba(100, 100, 225, 0.25) 76.86%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 23.14%, rgba(0, 0, 0, 0) 23.14%, rgba(0, 0, 0, 0) 25.62%, rgba(100, 100, 225, 0.25) 25.62%, rgba(100, 100, 225, 0.25) 48.76%, rgba(0, 0, 0, 0) 48.76%, rgba(0, 0, 0, 0) 51.24%, rgba(100, 100, 225, 0.25) 51.24%, rgba(100, 100, 225, 0.25) 74.38%, rgba(0, 0, 0, 0) 74.38%, rgba(0, 0, 0, 0) 76.86%, rgba(100, 100, 225, 0.25) 76.86%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 23.14%, rgba(0, 0, 0, 0) 23.14%, rgba(0, 0, 0, 0) 25.62%, rgba(100, 100, 225, 0.25) 25.62%, rgba(100, 100, 225, 0.25) 48.76%, rgba(0, 0, 0, 0) 48.76%, rgba(0, 0, 0, 0) 51.24%, rgba(100, 100, 225, 0.25) 51.24%, rgba(100, 100, 225, 0.25) 74.38%, rgba(0, 0, 0, 0) 74.38%, rgba(0, 0, 0, 0) 76.86%, rgba(100, 100, 225, 0.25) 76.86%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 23.14%, rgba(0, 0, 0, 0) 23.14%, rgba(0, 0, 0, 0) 25.62%, rgba(100, 100, 225, 0.25) 25.62%, rgba(100, 100, 225, 0.25) 48.76%, rgba(0, 0, 0, 0) 48.76%, rgba(0, 0, 0, 0) 51.24%, rgba(100, 100, 225, 0.25) 51.24%, rgba(100, 100, 225, 0.25) 74.38%, rgba(0, 0, 0, 0) 74.38%, rgba(0, 0, 0, 0) 76.86%, rgba(100, 100, 225, 0.25) 76.86%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top; }
+  /* line 38, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  #seite:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 13, ../sass/raster.scss */
+header, #banner {
+  clear: both;
+  margin-left: 0%;
+  margin-right: 0%; }
+
+/* line 17, ../sass/raster.scss */
+header {
+  height: 160px; }
+
+/* line 21, ../sass/raster.scss */
+#banner {
+  height: 300px; }
+
+/* line 25, ../sass/raster.scss */
+nav.meta {
+  display: inline;
+  float: left;
+  width: 48.76%;
+  margin-right: 2.479%;
+  margin-left: 0%; }
+
+/* line 30, ../sass/raster.scss */
+nav.main {
+  clear: both;
+  margin-left: 0%;
+  margin-right: 0%; }
+
+/* line 34, ../sass/raster.scss */
+div[role="main"] {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-right: 2.479%;
+  display: inline;
+  float: right;
+  margin-right: 0%;
+  #margin-left: -24px; }
+  /* line 37, ../sass/raster.scss */
+  div[role="main"] article {
+    display: inline;
+    float: left;
+    width: 74.38%;
+    margin-right: 2.479%; }
+  /* line 40, ../sass/raster.scss */
+  div[role="main"] aside {
+    display: inline;
+    float: left;
+    width: 23.14%;
+    margin-right: 2.479%;
+    display: inline;
+    float: right;
+    margin-right: 0;
+    #margin-left: -24px; }
+
+/* line 1, ../sass/navi.scss */
+nav li {
+  display: inline; }
+
+/* line 5, ../sass/navi.scss */
+nav.main {
+  margin-top: 110px;
+  bottom: 0;
+  display: inline;
+  float: left; }
+  /* line 9, ../sass/navi.scss */
+  nav.main li {
+    margin-right: 5px; }
+  /* line 14, ../sass/navi.scss */
+  nav.main a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid #0033cc;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(top, #ffffff, #e6e6e6);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px; }
+    /* line 23, ../sass/navi.scss */
+    nav.main a:hover {
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5d549), color-stop(100%, #f2ca19));
+      background-image: -webkit-linear-gradient(top, #f5d549, #f2ca19);
+      background-image: -moz-linear-gradient(top, #f5d549, #f2ca19);
+      background-image: -o-linear-gradient(top, #f5d549, #f2ca19);
+      background-image: -ms-linear-gradient(top, #f5d549, #f2ca19);
+      background-image: linear-gradient(top, #f5d549, #f2ca19); }
+
+/* line 53, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+body {
+  font-size: 100%;
+  line-height: 1.5em; }
+
+/* line 57, ../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html > body {
+  font-size: 16px; }
+
+/* line 4, ../sass/style.scss */
+body {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(160px, #ffffff), color-stop(160px, #cccccc), color-stop(460px, #cccccc), color-stop(460px, #c8def4), color-stop(66%, #c8def4), color-stop(87%, #0033cc));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 160px, #cccccc 160px, #cccccc 460px, #c8def4 460px, #c8def4 66%, #0033cc 87%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #ffffff 160px, #cccccc 160px, #cccccc 460px, #c8def4 460px, #c8def4 66%, #0033cc 87%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #ffffff 160px, #cccccc 160px, #cccccc 460px, #c8def4 460px, #c8def4 66%, #0033cc 87%);
+  background-image: -ms-linear-gradient(top, #ffffff 0%, #ffffff 160px, #cccccc 160px, #cccccc 460px, #c8def4 460px, #c8def4 66%, #0033cc 87%);
+  background-image: linear-gradient(top, #ffffff 0%, #ffffff 160px, #cccccc 160px, #cccccc 460px, #c8def4 460px, #c8def4 66%, #0033cc 87%);
+  font-family: Helvetica, arial, sans-serif; }
+
+/* line 16, ../sass/style.scss */
+html, footer {
+  background: #cccccc; }
+
+/* line 23, ../sass/style.scss */
+.ir {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent; }
+
+/* line 28, ../sass/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+/* line 29, ../sass/style.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 30, ../sass/style.scss */
+.clearfix {
+  *zoom: 1; }

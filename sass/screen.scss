@@ -1,0 +1,46 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+$grid-background-column-color: rgba(100, 100, 225, 0.25);
+$grid-background-gutter-color: rgba(0, 0, 0, 0);
+$grid-background-total-columns: 4;
+$grid-background-column-width: 224px;
+$grid-background-gutter-width: 24px;
+$show-column-grid-backgrounds: true;
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+$default-rhythm-border-style: solid;
+
+$WOBABlau: rgb(0,51,204);
+$WOBAHellBlau: rgb(200,222,244);
+$WOBAGrau: rgb(204,204,204);
+$blue:#708C87;
+$margin:5%;
+$cream:#F2EFEB;
+$cream2:$cream - 100;
+
+$hauptBreite: 968px;
+$spaltenBreite: 224px;
+$spaltenAbstand: 24px;
+$kopfHoehe: 160px;
+$bannerHoehe: 300px;
+$inhaltMinHohe: 450px;
+$fussHoehe: 160px;
+
+@import "susy";
+@import "compass/reset";
+@import "compass/layout/grid-background";
+@import "compass/css3";
+@import "compass/typography";
+@import "raster";
+@import "navi";
+@import "style";
+
+
+// Grid ----------------------------------------------------------------------
+
+
+

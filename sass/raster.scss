@@ -1,0 +1,44 @@
+$total-cols             : 4;
+$col-width              : $spaltenBreite;
+$gutter-width           : $spaltenAbstand;
+$side-gutter-width      : 0px;
+
+$show-grid-backgrounds  : true;
+
+#seite {
+	@include container;
+  	@include susy-grid-background;
+}
+
+header, #banner {
+	@include full;
+}
+
+header {
+	height: $kopfHoehe;
+}
+
+#banner {
+	height: $bannerHoehe;
+}
+
+nav.meta {
+	@include columns(2,4);
+	@include alpha;
+}
+
+nav.main {
+	@include full;
+}
+
+div[role="main"] {
+  @include columns(4);
+  @include omega;
+  article {
+    @include columns(3,4);
+  }
+  aside {
+    @include columns(1,4);
+    @include omega(4);
+  }
+}

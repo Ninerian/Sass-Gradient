@@ -1,0 +1,34 @@
+
+@include establish-baseline($base-font-size);
+
+body { 
+	@include background-image(linear-gradient(top, 
+												rgb(255,255,255) 0%, 
+												rgb(255,255,255) $kopfHoehe, 
+												$WOBAGrau $kopfHoehe, 
+												$WOBAGrau $kopfHoehe + $bannerHoehe, 
+												$WOBAHellBlau $kopfHoehe + $bannerHoehe, 
+												$WOBAHellBlau 66%, 
+												$WOBABlau 87%)); 
+
+	font-family: Helvetica, arial, sans-serif;}
+
+html, footer {
+	background: $WOBAGrau;
+
+}
+
+
+
+.ir {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent; }
+
+.clearfix:before, .clearfix:after { content: ""; display: table;}
+.clearfix:after { clear: both;}
+.clearfix {*zoom: 1;
+}
+
+
+

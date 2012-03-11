@@ -1,0 +1,29 @@
+nav li {
+	display: inline;
+	}
+
+nav.main {
+	margin-top: $kopfHoehe - 50px;
+	bottom: 0;
+	@include float(left);
+	li  {
+		margin-right: 5px;
+		
+
+	}
+	a{ 	
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 20px;
+		padding: 5px 20px;
+		border: 2px solid $WOBABlau;
+		@include background-image(linear-gradient(top, rgb(255,255,255), darken(rgb(255,255,255), 10)));
+		@include border-radius(5px);
+		
+		&:hover {
+			@include background-image(linear-gradient(top, rgb(245,213,73), darken(rgb(245,213,73), 10)));
+		}
+
+		}
+}
+
